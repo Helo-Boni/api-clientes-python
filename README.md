@@ -17,3 +17,16 @@ python app.py
 
 ## Objetivo
 Praticar desenvolvimento backend e criação de APIs.
+## Endpoints da API
+
+### GET /clientes
+Retorna a lista de clientes
+
+### POST /clientes
+Adiciona um novo cliente
+
+Exemplo de JSON:
+{
+  "nome": "Heloisa Bonifacio",
+  "email": "heloisabonifacio45@gmail.com"
+}
